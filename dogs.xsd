@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="dogs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="dog" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="photo" type="xs:string"/>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="contact" type="xs:string"/>
+                            <xs:element name="reward" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

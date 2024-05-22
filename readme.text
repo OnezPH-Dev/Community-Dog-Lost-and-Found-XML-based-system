@@ -1,0 +1,16 @@
+Fatal error: Uncaught Error: Class "XSLTProcessor" not found in
+
+Steps to Enable XSL Extension in XAMPP
+1. Locate the php.ini file:
+    - Open the XAMPP Control Panel.
+    - Click on the "Config" button next to "Apache" and select "php.ini". This will open the PHP configuration file in a text editor.
+
+2. Enable the XSL extension:
+    - In the php.ini file, search for the line that contains ;extension=xslt.
+    - Remove the semicolon (;) at the beginning of the line to uncomment it.
+
+3. Save and close the php.ini file.
+
+4. Restart Apache:
+    - Go back to the XAMPP Control Panel.
+    - Stop the Apache service and then start it again to apply the changes.

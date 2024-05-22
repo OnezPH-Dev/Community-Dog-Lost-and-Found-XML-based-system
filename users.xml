@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="users.xsd">
+<user><name>test</name><email>test@test</email><password>$2y$10$1/coAviMtdwLakKYIclk6OJpnkBuuVMBaX6BWhD2vt6L5hbGDchiG</password></user></users>
